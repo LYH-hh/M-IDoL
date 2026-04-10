@@ -2,7 +2,7 @@ This repository contains an official implementation of "[M-IDoL: Information Dec
 
 ## How to Perform Fine-tune
 ---
-Download M-IDoL's [pre-trained weight]().
+Download M-IDoL's [pre-trained weight](https://drive.google.com/file/d/1h67bMgt1gGprnm0zcwPYTVAMzHZNUqOA/view?usp=drive_link).
 Load the weights:
 ```
 weights_dict = torch.load("./M-IDoL.pth", map_location=torch.device('cuda'))
