@@ -3,7 +3,7 @@ This repository contains an official implementation of "[M-IDoL: Information Dec
 ## How to Perform Fine-tune
 ---
 Download M-IDoL's [pre-trained weight]().
-Load the weights to the ViT-B model:
+Load the weights:
 ```
 weights_dict = torch.load("./M-IDoL.pth", map_location=torch.device('cuda'))
 for key in list(weights_dict.keys()):
